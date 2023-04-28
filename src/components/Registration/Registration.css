@@ -1,0 +1,99 @@
+.container {
+  width: 100vh;
+  max-width: 700px;
+
+  margin-top: 30px 0 30px 0;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  padding: 15px 30px;
+  border: 1px solid white;
+  box-shadow: 0 0px 10px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.input-box:nth-child(2n) {
+  justify-content: end;
+}
+
+.input-box {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 400;
+  width: 50%;
+  margin-bottom: 5px;
+}
+
+.input-box input {
+  height: 45px;
+  width: 90%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  border-color: #d7abe9;
+}
+.input-box select
+ {
+  height: 45px;
+  width: 90%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  border-color: #d7abe9;
+}
+
+
+.input-box label {
+  width: 90%;
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.input-box input[type="radio"] {
+  margin-top: 5px;
+  height: 15px;
+  font-size: 18px;
+  padding: 12px;
+  width: 11%;
+  accent-color: #b673d1;
+}
+
+
+
+.input-box textarea {
+  height: 45px;
+  width: 90%;
+  outline: none;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 10px 0 0 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  border-color: #d7abe9;
+}
+
+
